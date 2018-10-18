@@ -12,6 +12,7 @@ public class RoomTest {
     Room room;
     Creature creature;
     Warrior warrior;
+    Warrior warrior2;
     Weapon weapon;
 
 
@@ -21,6 +22,7 @@ public class RoomTest {
         weapon = new Weapon("ShotGun", 100);
         creature = new Creature("minotaur", 100, 50,1);
         warrior = new Warrior("Terminator", 50, weapon);
+        warrior2 = new Warrior("Terminator2", 50, weapon);
         room = new Room(100, creature);
     }
 
@@ -35,6 +37,12 @@ public class RoomTest {
         assertEquals(1, room.countPlayers());
     }
 
-
-
+    @Test
+    public void playersCollectBounty(){
+        room.addPlayer(warrior);
+        room.addPlayer(warrior2);
+        warrior.attack(creature);
+        room.playersCollectTreasure();
+        assertEquals(50 , warrior.getMoney());
+    }
 }

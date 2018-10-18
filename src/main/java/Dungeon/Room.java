@@ -44,4 +44,13 @@ public class Room {
     public ArrayList getPlayers(){
         return players;
     }
+
+    public void playersCollectTreasure() {
+        if(canCollectTreasure()){
+            for (Player player: players) {
+                player.addMoney(treasure/countPlayers());
+
+            }
+        }
+    }
 }

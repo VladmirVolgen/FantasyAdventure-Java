@@ -40,17 +40,17 @@ public class Creature implements IAttack, IDefend {
         }
     }
 
-    @Override
-    public void attack(IDefend target) {
-        target.defend(getDamage());
-    }
-
     public int getDamage() {
         return damage;
     }
 
     public int getLevel() {
         return level;
+    }
+
+    @Override
+    public void attack(IDefend target) {
+        target.defend(getDamage());
     }
 
     @Override

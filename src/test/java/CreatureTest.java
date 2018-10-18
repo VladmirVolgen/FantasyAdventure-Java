@@ -24,4 +24,10 @@ public class CreatureTest {
         creature.takeDamage(101);
         assertEquals(false, creature.getStatus());
     }
+
+    @Test
+    public void canAttackItSelf() {
+        creature.attack(creature);
+        assertEquals(75, creature.getHp());
+    }
 }

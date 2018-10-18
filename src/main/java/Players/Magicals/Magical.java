@@ -1,6 +1,8 @@
 package Players.Magicals;
 
 import Creatures.Creature;
+import Interfaces.IAttack;
+import Interfaces.IDefend;
 import PlayerProperties.Spell;
 import Players.Player;
 
@@ -29,5 +31,24 @@ public abstract class Magical extends Player {
 
     public void setCreature(Creature creature) {
         this.creature = creature;
+    }
+
+    @Override
+    public int getDamage() {
+        return spell.getDamage();
+    }
+
+    @Override
+    public void attack(IDefend target) {
+        target.defend(getDamage());
+    }
+
+    @Override
+    public void defend(int damage) {
+        super.takeDamage(damage);
+    }
+
+    public void creatureAttack(IDefend target) {
+        creature.attack(target);
     }
 }

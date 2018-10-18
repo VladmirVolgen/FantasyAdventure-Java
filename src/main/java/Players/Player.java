@@ -12,6 +12,7 @@ public abstract class Player implements IAttack, IDefend {
     public Player(String name, int hp) {
         this.name = name;
         this.hp = hp;
+        this.status = true;
     }
 
     public String getName() {
@@ -21,6 +22,8 @@ public abstract class Player implements IAttack, IDefend {
     public int getHp() {
         return hp;
     }
+
+    public boolean getStatus() { return status;}
 
     public void isAlive() {
         if(hp <= 0) status = false;

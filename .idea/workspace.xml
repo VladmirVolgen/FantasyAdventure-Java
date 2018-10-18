@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ac8396a-f95c-4103-839a-4a0cc77d1740" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Players/Healers/Cleric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/PlayerProperties/Spell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/PlayerProperties/Spell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Healers/Healer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Players/Healers/Healer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Magicals/Magical.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Players/Magicals/Magical.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Players/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/WizardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/WizardTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerProperties/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerProperties/Spell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Healers/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Healers/Healer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Magicals/Magical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Magicals/Magical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WizardTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -40,23 +29,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="47" />
+          <entry key="java" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="47" />
+          <entry key="JAVA" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="4226" />
+          <entry key="java" value="4743" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4226" />
+          <entry key="JAVA" value="4743" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
@@ -131,11 +120,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ClericTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="241">
+              <caret line="40" selection-start-line="40" selection-end-line="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Room.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RoomTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -468,6 +484,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Players/Healers/Cleric.java" />
         <option value="$PROJECT_DIR$/src/test/java/ClericTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Players/Healers/Healer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dungeon/Room.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RoomTest.java" />
       </list>
     </option>
   </component>
@@ -571,7 +589,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539869722700" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539870894837" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -590,7 +608,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ClericTest.cannotOverHeal">
+  <component name="RunManager" selected="JUnit.RoomTest.canCollectTreasure">
     <configuration name="All in FantasyAdventure_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -619,6 +637,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RoomTest.canCollectTreasure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventure_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="canCollectTreasure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WizardTest.canChangeSpell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -629,30 +657,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WizardTest.wizardCanAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyAdventure_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WizardTest" />
-      <option name="METHOD_NAME" value="wizardCanAttack" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.WizardTest.wizardCanAttack" />
       <item itemvalue="JUnit.WizardTest.canChangeSpell" />
       <item itemvalue="JUnit.All in FantasyAdventure_test" />
       <item itemvalue="JUnit.ClericTest.canHealItSelf" />
       <item itemvalue="JUnit.ClericTest.cannotOverHeal" />
+      <item itemvalue="JUnit.RoomTest.canCollectTreasure" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoomTest.canCollectTreasure" />
         <item itemvalue="JUnit.ClericTest.cannotOverHeal" />
         <item itemvalue="JUnit.ClericTest.canHealItSelf" />
         <item itemvalue="JUnit.All in FantasyAdventure_test" />
         <item itemvalue="JUnit.WizardTest.canChangeSpell" />
-        <item itemvalue="JUnit.WizardTest.wizardCanAttack" />
       </list>
     </recent_temporary>
   </component>
@@ -670,9 +688,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WizardTest_damageGoesThroughCreature - 2018.10.18 at 13h 45m 46s.xml">
-      <configuration name="WizardTest.damageGoesThroughCreature" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WizardTest_damageCanKillWizardAndCreature - 2018.10.18 at 13h 47m 58s.xml">
       <configuration name="WizardTest.damageCanKillWizardAndCreature" configurationId="JUnit" />
     </history-entry>
@@ -700,6 +715,9 @@
     <history-entry file="ClericTest_cannotOverHeal - 2018.10.18 at 14h 38m 44s.xml">
       <configuration name="ClericTest.cannotOverHeal" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ClericTest_cannotOverHeal - 2018.10.18 at 14h 39m 08s.xml">
+      <configuration name="ClericTest.cannotOverHeal" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -710,17 +728,17 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.28082192" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.28082192" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.329582" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -933,8 +951,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ClericTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="241">
+          <caret line="40" selection-start-line="40" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

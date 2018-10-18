@@ -1,5 +1,6 @@
 package Players.Fighters;
 
+import Interfaces.IDefend;
 import PlayerProperties.Weapon;
 import Players.Player;
 
@@ -18,5 +19,20 @@ public abstract class Fighter extends Player {
 
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
+    }
+
+    @Override
+    public int getDamage() {
+        return weapon.getDamage();
+    }
+
+    @Override
+    public void attack(IDefend target) {
+        target.defend(getDamage());
+    }
+
+    @Override
+    public void defend(int damage) {
+        super.takeDamage(damage);
     }
 }

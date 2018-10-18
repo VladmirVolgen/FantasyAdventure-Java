@@ -2,5 +2,5 @@ package Interfaces;
 
 public interface IDefend {
 
-    void defend(IAttack target);
+    void defend(int damage);
 }

@@ -29,4 +29,27 @@ public class WizardTest {
         wizard.creatureAttack(creature);
         assertEquals(80, creature.getHp());
     }
+
+    @Test
+//    damage cannot be split.
+    public void damageCanKillWizardAndCreature() {
+        creature.attack(wizard);
+        creature.attack(wizard);
+        creature.attack(wizard);
+        creature.attack(wizard);
+        assertEquals(-10, wizard.getHp());
+    }
+
+    @Test
+    public void wizardCanAttack() {
+        wizard.attack(creature);
+        assertEquals(85, creature.getHp());
+    }
+
+    @Test
+    public void canChangeSpell() {
+        wizard.setSpell(spell2);
+        wizard.attack(creature);
+        assertEquals(90, creature.getHp());
+    }
 }

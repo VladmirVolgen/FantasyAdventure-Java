@@ -29,7 +29,7 @@ public abstract class Magical extends Player {
         return creature;
     }
 
-    public void setCreature(Creature creature) {
+    public void invoke(Creature creature) {
         this.creature = creature;
     }
 
@@ -45,10 +45,17 @@ public abstract class Magical extends Player {
 
     @Override
     public void defend(int damage) {
+        if (creature.getStatus()) creature.takeDamage(damage);
+        else{
         super.takeDamage(damage);
+        }
     }
 
     public void creatureAttack(IDefend target) {
         creature.attack(target);
+    }
+
+    public void study() {
+        spell.levelUp();
     }
 }

@@ -17,9 +17,13 @@ public class Spell {
     }
 
     public int getDamage() {
-        return damage;
+        return damage * level;
     }
 
     public int getLevel() { return level; }
+
+    public void levelUp() {
+        level++;
+    }
 
 }

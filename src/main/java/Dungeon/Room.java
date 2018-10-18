@@ -37,6 +37,14 @@ public class Room {
         players.add(player);
     }
 
+    public void addManyPlayers(ArrayList<Player> players){
+        this.players = players;
+
+    }
+    public void clearRoom(){
+        players.clear();
+    }
+
     public int countPlayers() {
         return players.size();
     }
@@ -53,4 +61,6 @@ public class Room {
             }
         }
     }
+
+
 }

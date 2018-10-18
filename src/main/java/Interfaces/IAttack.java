@@ -2,6 +2,6 @@ package Interfaces;
 
 public interface IAttack {
 
-    int Attack();
+    void attack(IDefend target);
 
 }

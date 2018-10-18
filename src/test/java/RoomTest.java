@@ -5,6 +5,7 @@ import Players.Fighters.Warrior;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class RoomTest {
@@ -12,6 +13,7 @@ public class RoomTest {
     Creature creature;
     Warrior warrior;
     Weapon weapon;
+
 
 
     @Before
@@ -27,5 +29,12 @@ public class RoomTest {
         warrior.attack(creature);
         assertTrue(room.canCollectTreasure());
     }
+    @Test
+    public void roomHasPlayers(){
+        room.addPlayer(warrior);
+        assertEquals(1, room.countPlayers());
+    }
+
+
 
 }

@@ -9,12 +9,14 @@ public abstract class Player implements IAttack, IDefend {
     private int hp;
     private int originalHp;
     private boolean status;
+    private int money;
 
     public Player(String name, int hp) {
         this.name = name;
         this.hp = hp;
         this.status = true;
         this.originalHp = hp;
+        this.money = 0;
     }
 
     public String getName() {
@@ -44,5 +46,13 @@ public abstract class Player implements IAttack, IDefend {
 
     public int getOriginalHp() {
         return originalHp;
+    }
+
+    public int getMoney(){
+        return money;
+    }
+
+    public void addMoney(int bounty){
+        money += bounty;
     }
 }

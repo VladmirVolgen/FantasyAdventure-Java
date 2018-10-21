@@ -42,9 +42,6 @@ public class Room {
 
     }
     public void clearRoom(){
-        for (Player player : players) {
-            player = null;
-        }
         players.clear();
     }
 

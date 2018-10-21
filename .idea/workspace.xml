@@ -4,6 +4,7 @@
     <list default="true" id="6ac8396a-f95c-4103-839a-4a0cc77d1740" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DungeonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DungeonTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,12 +60,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="390" />
+          <entry key="java" value="490" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="390" />
+          <entry key="JAVA" value="490" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,17 +82,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="22" />
+            <state relative-caret-position="459">
+              <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#288#289#0" expanded="true" />
                 <element signature="e#319#320#0" expanded="true" />
                 <element signature="e#449#450#0" expanded="true" />
                 <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
                 <element signature="e#742#743#0" expanded="true" />
                 <element signature="e#789#790#0" expanded="true" />
               </folding>
@@ -99,27 +102,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DungeonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="473">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Room.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1027#1028#0" expanded="true" />
-                <element signature="e#1057#1058#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -453,9 +442,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Players/Healers/Healer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Players/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoomTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DungeonTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dungeon/Room.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DungeonTest.java" />
       </list>
     </option>
   </component>
@@ -517,7 +506,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540140199675" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540142415926" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
@@ -614,35 +603,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RoomTest - 2018.10.18 at 15h 11m 02s.xml">
-      <configuration name="RoomTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DungeonTest_canAddRooms - 2018.10.18 at 15h 19m 35s.xml">
-      <configuration name="DungeonTest.canAddRooms" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_FantasyAdventure_test - 2018.10.21 at 17h 19m 45s.xml">
-      <configuration name="All in FantasyAdventure_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DungeonTest - 2018.10.21 at 17h 30m 09s.xml">
-      <configuration name="DungeonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DungeonTest_canMovePlayers - 2018.10.21 at 17h 33m 51s.xml">
-      <configuration name="DungeonTest.canMovePlayers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DungeonTest_canMovePlayers - 2018.10.21 at 17h 34m 34s.xml">
-      <configuration name="DungeonTest.canMovePlayers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DungeonTest_canMovePlayers - 2018.10.21 at 17h 38m 33s.xml">
-      <configuration name="DungeonTest.canMovePlayers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DungeonTest_canMovePlayers - 2018.10.21 at 17h 40m 31s.xml">
-      <configuration name="DungeonTest.canMovePlayers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DungeonTest - 2018.10.21 at 17h 41m 56s.xml">
-      <configuration name="DungeonTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DungeonTest - 2018.10.21 at 17h 42m 12s.xml">
       <configuration name="DungeonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest - 2018.10.21 at 17h 47m 02s.xml">
+      <configuration name="DungeonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest - 2018.10.21 at 17h 53m 40s.xml">
+      <configuration name="DungeonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest - 2018.10.21 at 17h 54m 10s.xml">
+      <configuration name="DungeonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest - 2018.10.21 at 17h 55m 59s.xml">
+      <configuration name="DungeonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest - 2018.10.21 at 17h 59m 48s.xml">
+      <configuration name="DungeonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest - 2018.10.21 at 18h 02m 26s.xml">
+      <configuration name="DungeonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest - 2018.10.21 at 18h 05m 49s.xml">
+      <configuration name="DungeonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest_canMovePlayers - 2018.10.21 at 18h 09m 19s.xml">
+      <configuration name="DungeonTest.canMovePlayers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest_canMovePlayers - 2018.10.21 at 18h 09m 38s.xml">
+      <configuration name="DungeonTest.canMovePlayers" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -878,28 +867,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="507">
+          <caret line="44" column="24" lean-forward="true" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
             <element signature="e#1027#1028#0" expanded="true" />
             <element signature="e#1057#1058#0" expanded="true" />
           </folding>
@@ -908,10 +883,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DungeonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="473">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
           </folding>
         </state>
       </provider>

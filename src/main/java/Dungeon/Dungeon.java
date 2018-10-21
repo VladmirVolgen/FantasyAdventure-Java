@@ -32,10 +32,18 @@ public class Dungeon {
         return position;
     }
 
+    public ArrayList<Room> getRooms() {
+        return rooms;
+    }
+
     public void movePlayersToRoom() {
         ArrayList<Player> players = rooms.get(position).getPlayers();
-//        clearRoom();
-        rooms.get(position + 1).addManyPlayers(players);
+//        rooms.get(position + 1).addManyPlayers(players);
+        Room room = rooms.get(position + 1);
+        for (Player player: players) {
+            room.addPlayer(player);
+        }
+        clearRoom();
 
     }
 

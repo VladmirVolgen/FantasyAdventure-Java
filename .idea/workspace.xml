@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ac8396a-f95c-4103-839a-4a0cc77d1740" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dungeon/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Dungeon/Room.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DungeonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DungeonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Room.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -65,22 +59,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="311" />
+          <entry key="java" value="390" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="311" />
+          <entry key="JAVA" value="390" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -90,14 +84,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+            <state relative-caret-position="371">
+              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
                 <element signature="e#449#450#0" expanded="true" />
                 <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/DungeonTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="901">
-              <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,11 +114,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+            <state relative-caret-position="435">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1057#1058#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -456,9 +453,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Players/Healers/Healer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Players/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoomTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dungeon/Room.java" />
         <option value="$PROJECT_DIR$/src/test/java/DungeonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dungeon/Room.java" />
       </list>
     </option>
   </component>
@@ -520,7 +517,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540138780554" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540140199675" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
@@ -596,9 +593,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DungeonTest" />
+        <item itemvalue="JUnit.DungeonTest.canMovePlayers" />
         <item itemvalue="JUnit.All in FantasyAdventure_test" />
         <item itemvalue="JUnit.DungeonTest.canAddRooms" />
-        <item itemvalue="JUnit.DungeonTest.canMovePlayers" />
         <item itemvalue="JUnit.RoomTest" />
       </list>
     </recent_temporary>
@@ -617,27 +614,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClericTest_canHealItSelf - 2018.10.18 at 14h 32m 19s.xml">
-      <configuration name="ClericTest.canHealItSelf" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClericTest_canHealItSelf - 2018.10.18 at 14h 32m 37s.xml">
-      <configuration name="ClericTest.canHealItSelf" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClericTest_cannotOverHeal - 2018.10.18 at 14h 34m 34s.xml">
-      <configuration name="ClericTest.cannotOverHeal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClericTest_cannotOverHeal - 2018.10.18 at 14h 38m 44s.xml">
-      <configuration name="ClericTest.cannotOverHeal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClericTest_cannotOverHeal - 2018.10.18 at 14h 39m 08s.xml">
-      <configuration name="ClericTest.cannotOverHeal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoomTest_canCollectTreasure - 2018.10.18 at 14h 54m 57s.xml">
-      <configuration name="RoomTest.canCollectTreasure" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoomTest_roomHasPlayers - 2018.10.18 at 15h 02m 34s.xml">
-      <configuration name="RoomTest.roomHasPlayers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RoomTest - 2018.10.18 at 15h 11m 02s.xml">
       <configuration name="RoomTest" configurationId="JUnit" />
     </history-entry>
@@ -647,12 +623,33 @@
     <history-entry file="All_in_FantasyAdventure_test - 2018.10.21 at 17h 19m 45s.xml">
       <configuration name="All in FantasyAdventure_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DungeonTest - 2018.10.21 at 17h 30m 09s.xml">
+      <configuration name="DungeonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest_canMovePlayers - 2018.10.21 at 17h 33m 51s.xml">
+      <configuration name="DungeonTest.canMovePlayers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest_canMovePlayers - 2018.10.21 at 17h 34m 34s.xml">
+      <configuration name="DungeonTest.canMovePlayers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest_canMovePlayers - 2018.10.21 at 17h 38m 33s.xml">
+      <configuration name="DungeonTest.canMovePlayers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest_canMovePlayers - 2018.10.21 at 17h 40m 31s.xml">
+      <configuration name="DungeonTest.canMovePlayers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest - 2018.10.21 at 17h 41m 56s.xml">
+      <configuration name="DungeonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest - 2018.10.21 at 17h 42m 12s.xml">
+      <configuration name="DungeonTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-25" width="1922" height="1106" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -661,13 +658,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3280318" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3280318" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39960238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28082192" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28031808" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32902583" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -860,27 +857,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Room.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        <state relative-caret-position="413">
+          <caret line="643" selection-start-line="643" selection-end-line="643" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#24178#24179#0" expanded="true" />
+            <element signature="e#24230#24231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk-10.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="283" selection-start-line="283" selection-end-line="283" />
+          <folding>
+            <element signature="e#10613#10614#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+        <state relative-caret-position="371">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
             <element signature="e#449#450#0" expanded="true" />
             <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -888,7 +909,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/DungeonTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
-          <caret line="53" column="51" lean-forward="true" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

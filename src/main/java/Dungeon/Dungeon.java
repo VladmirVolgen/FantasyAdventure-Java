@@ -5,15 +5,15 @@ import Players.Player;
 import java.util.ArrayList;
 
 public class Dungeon {
-    private ArrayList<Room>rooms;
+    private ArrayList<Room> rooms;
     private int position;
 
-    public Dungeon(){
+    public Dungeon() {
         this.rooms = new ArrayList<>();
         this.position = 0;
     }
 
-    public void addRoom(Room room){
+    public void addRoom(Room room) {
         rooms.add(room);
     }
 
@@ -25,7 +25,7 @@ public class Dungeon {
 
     public void nextRoom() {
         movePlayersToRoom();
-        position ++;
+        position++;
     }
 
     public int getPosition() {
@@ -33,12 +33,14 @@ public class Dungeon {
     }
 
     public void movePlayersToRoom() {
-         ArrayList <Player> players = rooms.get(position).getPlayers();
-         rooms.get(position + 1).addManyPlayers(players);
-         clearRoom();
+        ArrayList<Player> players = rooms.get(position).getPlayers();
+//        clearRoom();
+        rooms.get(position + 1).addManyPlayers(players);
+
     }
 
     protected void clearRoom() {
         rooms.get(position).clearRoom();
     }
+}
 

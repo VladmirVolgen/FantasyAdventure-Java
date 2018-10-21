@@ -36,9 +36,10 @@ public class Dungeon {
         return rooms;
     }
 
-    public void movePlayersToRoom() {
+    protected void movePlayersToRoom() {
         ArrayList<Player> players = rooms.get(position).getPlayers();
 //        rooms.get(position + 1).addManyPlayers(players);
+
         Room room = rooms.get(position + 1);
         for (Player player: players) {
             room.addPlayer(player);
@@ -49,6 +50,14 @@ public class Dungeon {
 
     protected void clearRoom() {
         rooms.get(position).clearRoom();
+    }
+
+    public void completeRoom() {
+        Room room = rooms.get(position);
+        if (room.canCollectTreasure()) {
+            room.playersCollectTreasure();
+            nextRoom();
+        }
     }
 }
 

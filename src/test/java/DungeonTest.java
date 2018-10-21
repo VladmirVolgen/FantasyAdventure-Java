@@ -51,7 +51,17 @@ public class DungeonTest {
         room1.addPlayer(warrior);
         dungeon.addRoom(room2);
         dungeon.nextRoom();
-        assertEquals(1, room2.getPlayers().size());
+        assertEquals(1, room2.countPlayers());
 
+    }
+
+    @Test
+    public void canCompleteRoom() {
+        dungeon.addRoom(room1);
+        room1.addPlayer(warrior);
+        dungeon.addRoom(room2);
+        warrior.attack(creature);
+        dungeon.completeRoom();
+        assertEquals(1, room2.countPlayers());
     }
 }

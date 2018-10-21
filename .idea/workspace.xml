@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6ac8396a-f95c-4103-839a-4a0cc77d1740" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DungeonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DungeonTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,12 +59,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="490" />
+          <entry key="java" value="705" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="490" />
+          <entry key="JAVA" value="705" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -82,11 +81,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+            <state relative-caret-position="436">
+              <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#288#289#0" expanded="true" />
@@ -102,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DungeonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="901">
+              <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -506,7 +505,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540142415926" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540143441290" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
@@ -603,12 +602,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DungeonTest - 2018.10.21 at 17h 42m 12s.xml">
-      <configuration name="DungeonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DungeonTest - 2018.10.21 at 17h 47m 02s.xml">
-      <configuration name="DungeonTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DungeonTest - 2018.10.21 at 17h 53m 40s.xml">
       <configuration name="DungeonTest" configurationId="JUnit" />
     </history-entry>
@@ -633,6 +626,12 @@
     <history-entry file="DungeonTest_canMovePlayers - 2018.10.21 at 18h 09m 38s.xml">
       <configuration name="DungeonTest.canMovePlayers" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DungeonTest - 2018.10.21 at 18h 20m 17s.xml">
+      <configuration name="DungeonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DungeonTest - 2018.10.21 at 18h 20m 33s.xml">
+      <configuration name="DungeonTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-25" width="1922" height="1106" extended-state="0" />
@@ -647,13 +646,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3280318" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3280318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39960238" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28031808" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28031808" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32902583" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -881,20 +880,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DungeonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Dungeon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        <state relative-caret-position="436">
+          <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#288#289#0" expanded="true" />
@@ -905,6 +894,16 @@
             <element signature="e#612#613#0" expanded="true" />
             <element signature="e#742#743#0" expanded="true" />
             <element signature="e#789#790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DungeonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

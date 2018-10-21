@@ -1,5 +1,7 @@
 package Dungeon;
 
+import Players.Player;
+
 import java.util.ArrayList;
 
 public class Dungeon {
@@ -22,10 +24,21 @@ public class Dungeon {
 
 
     public void nextRoom() {
+        movePlayersToRoom();
         position ++;
     }
 
     public int getPosition() {
         return position;
     }
-}
+
+    public void movePlayersToRoom() {
+         ArrayList <Player> players = rooms.get(position).getPlayers();
+         rooms.get(position + 1).addManyPlayers(players);
+         clearRoom();
+    }
+
+    protected void clearRoom() {
+        rooms.get(position).clearRoom();
+    }
+

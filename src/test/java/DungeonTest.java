@@ -38,10 +38,20 @@ public class DungeonTest {
     }
 
     @Test
-    public void canMovePlayers(){
+    public void canChangePosition(){
         dungeon.addRoom(room1);
         dungeon.addRoom(room2);
         dungeon.nextRoom();
         assertEquals(1, dungeon.getPosition());
+    }
+
+    @Test
+    public void canMovePlayers() {
+        dungeon.addRoom(room1);
+        room1.addPlayer(warrior);
+        dungeon.addRoom(room2);
+        dungeon.nextRoom();
+        assertEquals(1, room2.getPlayers().size());
+
     }
 }

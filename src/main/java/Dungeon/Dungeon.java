@@ -50,9 +50,7 @@ public class Dungeon {
         ArrayList<Player> players = rooms.get(position).getPlayers();
 
         Room room = rooms.get(position + 1);
-        for (Player player: players) {
-            room.addPlayer(player);
-        }
+        room.addManyPlayers(players);
         clearRoom();
 
     }

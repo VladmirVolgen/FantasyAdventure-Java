@@ -38,7 +38,7 @@ public class Room {
     }
 
     public void addManyPlayers(ArrayList<Player> players){
-        this.players = players;
+        this.players = new ArrayList<Player>(players);
 
     }
     public void clearRoom(){
